@@ -1,5 +1,7 @@
 # DS2002 FInal Projects
 
+
+
 # Pi Data Analysis
 
 Pi Analysis Data Fetcher is a Python script designed to fetch data from a remote API, store it in a MySQL database, and visualize it using Pandas and Matplotlib libraries. The script fetches the value of Pi, changing minutely, and its factor from a specified API endpoint, stores it in a database, and generates a time-series plot comparing Pi values and factors over time.
@@ -20,5 +22,38 @@ To use the Pi Analysis Data Fetcher, follow these steps:
 
 3. **Visualization**: After fetching and storing data for an hour, the script will generate a time-series plot comparing Pi values and factors over time. You can visualize this plot to analyze the trends in Pi values and factors.
 
-## Contributing
+## Project Information and Contributors
 
+This project was done by Colin Bitz for the class DS2002 at the University of Virginia. 
+
+
+
+# CountryBot Discord Bot
+
+CountryBot is a Discord bot designed to entertain users with a geography-based game. The bot pulls data from an API and stores it in MySQL, where data can be adjusted and used as needed. This database provides users with information countries and prompting them to guess the correct country based on given hints. It also supports basic chat functionalities and provides assistance upon request.
+
+## Features
+
+- **Geography Game**: Users can initiate a private message with the bot to play a geography-based game. The bot provides hints about a country's capital, currency, and language, and users have to guess the correct country within three attempts.
+
+- **Score Tracking**: The bot tracks users' scores based on the number of correct guesses and hints used during the game. It maintains a leaderboard of top scorers.
+
+- **Chat Interaction**: Users can interact with the bot in the main chat by typing commands like "hi", "hello", "hey" to receive greetings, and "help" to get instructions on how to play the game. Once you have initiated a private chat, there are additional commands that can be used to allow for increased functionality. 
+
+## Usage
+
+To use the CountryBot, follow these steps:
+
+1. **Setup**: If you would like to have a local version of the code, clone the repository and install the required dependencies using `pip install -r requirements.txt` if libraries are not installed.
+
+2. **Database Configuration**: You need to set up a MySQL database for storing country and player data. Update the database connection details in the `get_country_data`, `submit_player`, and `leaderboard` functions in `main.py`. Ensure that you change the password to your MySQL password. 
+
+3. **Discord Token**: Create a `.env` file in the project directory and add our Discord bot token, provided here: `DISCORD_TOKEN="MTIyOTgxMTkxOTQyMzAxMzA4OQ.GwAoNb.5cjl46Fn-XuyY2Xx3bwA-yZrqBhPGgfIUim6Ng"`.
+
+4. **Running the Bot**: We have integrated everything including database work, API connection, and chat functions into `main.py`. Simply running `main.py` will run the bot. It will connect to Discord using the provided token and be ready to respond to messages and game requests.
+
+5. **Interacting with the Bot**: Users can interact with the bot in the main chat by typing commands like "hi", "hello", "hey" to receive greetings. To learn more, users should follows prompt until eventually given a private chat where they will given further instruction on how to play the game. This decision was made with a user-friendly design in mind, ensuring that the main channel would not be clogged by many users. 
+
+## Project Information and Contributors
+
+This project was done by Oliver Mills and Colin Bitz for the class DS2002 at the University of Virginia. 
