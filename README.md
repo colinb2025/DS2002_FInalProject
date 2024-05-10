@@ -1,6 +1,6 @@
 # DS2002 FInal Projects
 
-# Pi Analysis Data Fetcher
+# Pi Data Analysis
 
 Pi Analysis Data Fetcher is a Python script designed to fetch data from a remote API, store it in a MySQL database, and visualize it using Pandas and Matplotlib libraries. The script fetches the value of Pi, changing minutely, and its factor from a specified API endpoint, stores it in a database, and generates a time-series plot comparing Pi values and factors over time.
 
