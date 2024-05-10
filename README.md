@@ -46,9 +46,9 @@ To use the CountryBot, follow these steps:
 
 1. **Setup**: If you would like to have a local version of the code, clone the repository and install the required dependencies using `pip install -r requirements.txt` if libraries are not installed.
 
-2. **Database Configuration**: You need to set up a MySQL database for storing country and player data. Update the database connection details in the `get_country_data`, `submit_player`, and `leaderboard` functions in `main.py`. Ensure that you change the password to your MySQL password. 
+2. **Database Configuration**: You need to set up a MySQL database for storing country and player data. Update the database connection details in the `get_country_data`, `submit_player`, and `leaderboard` functions in `main.py` as well as in `Databases.py`. In these three instances, you will need to change the password to your MySQL password. 
 
-3. **Discord Token**: Create a `.env` file in the project directory and add our Discord bot token, provided here: `DISCORD_TOKEN="MTIyOTgxMTkxOTQyMzAxMzA4OQ.GwAoNb.5cjl46Fn-XuyY2Xx3bwA-yZrqBhPGgfIUim6Ng"`.
+3. **Discord Token**: Create a `.env` file in the project directory and add our Discord bot token, provided here: `DISCORD_TOKEN=<provided_token>`.
 
 4. **Running the Bot**: We have integrated everything including database work, API connection, and chat functions into `main.py`. Simply running `main.py` will run the bot. It will connect to Discord using the provided token and be ready to respond to messages and game requests.
 
