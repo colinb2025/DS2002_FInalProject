@@ -18,7 +18,7 @@ To use the Pi Analysis Data Fetcher, follow these steps:
 
 1. **Database Configuration**: Set up a MySQL database where fetched data will be stored. Update the database connection details (host, user, password, port, database) in the `project_1.py` script.
 
-2. **Running the Script**: Execute the `project_1.py` script to start fetching data from the API. The script will continuously fetch data on a minutely basis over the course of an hour and store it in the database.
+2. **Running the Script**: Execute the `project_1.py` script to start fetching data from the API. The script will continuously fetch data on a minutely basis over the course of an hour (modified the length to account for the function runtime) and store it in the database.
 
 3. **Visualization**: After fetching and storing data for an hour, the script will generate a time-series plot comparing Pi values and factors over time. You can visualize this plot to analyze the trends in Pi values and factors.
 
