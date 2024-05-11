@@ -30,7 +30,7 @@ This project was done by Colin Bitz for the class DS2002 at the University of Vi
 
 # CountryBot Discord Bot (Project2)
 
-CountryBot is a Discord bot designed to entertain users with a geography-based game. The bot pulls data from an API and stores it in MySQL, where data can be adjusted and used as needed. This database provides users with information countries and prompting them to guess the correct country based on given hints. It also supports basic chat functionalities and provides assistance upon request.
+CountryBot is a Discord bot designed to entertain users with a geography-based game. The bot pulls data from an geography based API which includes countries, their capitals, their languages, and their currencies and stores it in MySQL, where data can be adjusted and used as needed. This database provides users with information countries and prompting them to guess the correct country based on given hints. It also supports basic chat functionalities and provides assistance upon request.
 
 ## Features
 
