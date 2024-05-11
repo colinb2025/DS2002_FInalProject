@@ -235,6 +235,9 @@ async def get_response(user_input: str) -> str:
                f'Type **\'game\'** to start a DM between us where you will get more instructions.'
     elif 'roll dice' in lowered:
         return f'You rolled a {randint(1, 6)}'
+    else:
+        return f'**Hi**, I am **CountryBot**! I\'m a geography based game bot for Discord! \n' \
+               f'Just tell me if you need **\'help\'** and I will provide you with some guidance.'
 
 
 # Step 5 Main Starting point
